@@ -1,18 +1,15 @@
 #include<stdio.h>
-
-int main(){
-
+int main()
+{
     int mat[3][3];
-
     int i,j,a;
-    for(i=0;i<3;i++){
-
+    for(i=0;i<3;i++)
+    {
         for(j=0;j<3;j++){
-
             printf("Enter the element at %d%d\n",i+1,j+1);
             scanf("%d",&mat[i][j]);
                if((i+j)%2==0){
-               a=1;}
+                   a=1;}
                   else{
                a=-1;
         }
